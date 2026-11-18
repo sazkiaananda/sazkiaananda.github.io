@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sazkia Ananda Zykry — Computer Science graduate and mobile app developer.">
-  <meta name="theme-color" content="#0c1013">
+  <meta name="description" content="Sazkia Ananda Zykry — Computer Science graduate and mobile developer focused on Android and Flutter.">
+  <meta name="theme-color" content="#0b1012">
   <title>Sazkia Ananda Zykry — Mobile Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,106 +13,112 @@
   <header class="site-header wrap">
     <a class="wordmark" href="index.html">SAZKIA ANANDA ZYKRY<b>.</b></a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="#work">Projects</a><a href="#experience">Background</a><a href="credentials.html">Certificates</a><a class="nav-cv" href="cv.html">View CV ↗</a><a class="nav-contact" href="#contact">Contact ↗</a>
+      <a href="#about">About</a><a href="#work">Projects</a><a href="#certificates">Certificates</a><a class="nav-cv" href="#cv">View CV</a><a class="nav-contact" href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="main">
     <section class="hero wrap" aria-labelledby="intro-title">
       <div class="hero-copy">
-        <p class="hero-kicker"><span></span> COMPUTER SCIENCE · IPB UNIVERSITY</p>
+        <p class="hero-kicker"><span></span> SAZKIA ANANDA ZYKRY <b>·</b> MOBILE DEVELOPER</p>
         <h1 id="intro-title">Mobile apps built around <em>real tasks.</em></h1>
-        <p>I’m Sazkia, a Computer Science graduate focused on Android and mobile development. I’ve worked on a field-assessment app and a digital-library prototype.</p>
+        <p>I’m a Computer Science graduate from IPB University focused on Android development with Kotlin, with additional experience building mobile interfaces in Flutter.</p>
         <div class="hero-actions">
           <a class="button button-lime" href="#work">See my projects <span aria-hidden="true">↓</span></a>
           <a class="button button-outline" href="cv.html">View my CV <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-visual" aria-label="Selected mobile app screenshots">
-        <figure class="device-card device-primary device-raw"><div class="device-shell"><div class="device-screen"><img src="assets/projects/sipakarhutla-polygon.jpg" alt="SIPAKARHUTLA app showing a mapped land polygon"></div></div><figcaption><span>01 / FIELDWORK</span><b>SIPAKARHUTLA</b></figcaption></figure>
-        <figure class="device-card device-secondary"><div class="device-shell"><div class="device-screen"><img src="assets/projects/silala-home-screen.png" alt="SILALA digital-library home screen with account details anonymized"></div></div><figcaption><span>02 / LIBRARY</span><b>SILALA</b></figcaption></figure>
+      <div class="code-art" role="img" aria-label="Kotlin-style profile card showing Sazkia's mobile development focus and current availability">
+        <div class="code-window">
+          <div class="code-topbar"><div class="window-dots"><i></i><i></i><i></i></div><span>AboutMe.kt</span><b>KOTLIN</b></div>
+          <div class="code-body" aria-hidden="true">
+            <div><span class="line-no">01</span><span class="code-blue">data class</span> AboutMe(</div>
+            <div><span class="line-no">02</span>  <span class="code-blue">val</span> name: String = <span class="code-green">&quot;Sazkia Ananda Zykry&quot;</span>,</div>
+            <div><span class="line-no">03</span>  <span class="code-blue">val</span> focus: List&lt;String&gt; = listOf(</div>
+            <div><span class="line-no">04</span>    <span class="code-green">&quot;Android development&quot;</span>,</div>
+            <div><span class="line-no">05</span>    <span class="code-green">&quot;Kotlin&quot;</span>, <span class="code-green">&quot;Flutter&quot;</span></div>
+            <div><span class="line-no">06</span>  ),</div>
+            <div><span class="line-no">07</span>  <span class="code-blue">val</span> currently: String =</div>
+            <div><span class="line-no">08</span>    <span class="code-green">&quot;open to opportunities&quot;</span></div>
+            <div><span class="line-no">09</span>)</div>
+          </div>
+          <div class="code-status"><span><i></i> ABOUT ME</span><span>Mobile Developer</span><span>UTF-8</span></div>
+        </div>
+        <div class="code-note"><span class="note-mark">↳</span><span><b>Android · Kotlin · Flutter</b><small>Computer Science graduate · IPB University</small></span></div>
       </div>
-      <div class="hero-foot"><span>ANDROID / KOTLIN</span><span>FLUTTER / DART</span><span>BOGOR · INDONESIA</span></div>
+      <div class="hero-foot"><span>ANDROID · KOTLIN</span><span>FLUTTER · DART</span><span>IPB UNIVERSITY · 2026</span></div>
+    </section>
+
+    <section id="about" class="about-section wrap" aria-labelledby="about-title">
+      <div class="about-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2 id="about-title">Mobile apps for <em>practical work.</em></h2>
+      </div>
+      <div class="about-copy">
+        <p>I’m a Computer Science graduate from IPB University focused on Android development with Kotlin. I also build mobile interfaces with Flutter.</p>
+        <p>My project work includes offline field data capture, map-based assessment, image classification, and digital-library app flows, with supporting REST API and backend contributions.</p>
+        <div class="about-facts" aria-label="Profile details">
+          <div class="about-fact"><strong>Focus</strong><span>Android · Kotlin · Mobile UI</span></div>
+          <div class="about-fact"><strong>Experience</strong><span>SIPAKARHUTLA project · SILALA internship</span></div>
+          <div class="about-fact"><strong>Education</strong><span>B.Sc. Computer Science · IPB University · Aug 2026 · GPA 3.25/4.00</span></div>
+        </div>
+      </div>
     </section>
 
     <section id="work" class="project-section">
       <div class="wrap">
         <div class="section-top">
           <div><p class="eyebrow">SELECTED PROJECTS · 2025—2026</p><h2>Work I can show.</h2></div>
-          <p>Two mobile projects with different goals: helping field teams record post-fire assessments and giving BPMSPH staff a digital way to explore library materials.</p>
+          <p>Two mobile projects with different goals: supporting field assessment and making library materials easier to explore.</p>
         </div>
 
         <article class="project-block">
           <div class="project-copy">
             <p class="project-index"><span></span> 01 · THESIS &amp; FACULTY PROJECT</p>
             <h3>SIPAKARHUTLA</h3>
-            <p class="project-subtitle">Post-fire area severity assessment</p>
-            <p>Field officers needed a practical way to record affected areas, including when the connection was unavailable. I continued the existing Android app and improved its offline and map-based workflows.</p>
-            <ul class="project-points">
-              <li>Offline location capture and draft recovery</li>
-              <li>Map polygons, report editing, and photo-based classification</li>
-              <li>REST API updates and field testing with end users</li>
-            </ul>
-            <div class="tags"><span>Kotlin</span><span>Android</span><span>Google Maps</span><span>TensorFlow Lite</span></div>
+            <p class="project-subtitle">Forest and land fire assessment</p>
+            <p>Continued an existing Kotlin Android application for post-fire field assessment. My work focused on offline data entry, map-based area and plot workflows, and photo-based severity classification, with supporting API and backend updates.</p>
+            <div class="project-meta" aria-label="SIPAKARHUTLA project details">
+              <div><span>ROLE</span><strong>Android Developer</strong></div><div><span>STACK</span><strong>Kotlin · Android · Maps</strong></div><div><span>PERIOD</span><strong>Jan—Aug 2026</strong></div><div><span>CONTEXT</span><strong>Thesis · IPB University</strong></div>
+            </div>
             <a class="project-more" href="projects/sipakarhutla.html">Project details <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="project-preview red-preview single-preview">
-            <figure class="device-card device-raw"><div class="device-shell"><div class="device-screen"><img src="assets/projects/sipakarhutla-polygon.jpg" alt="Mapped field area outlined as a polygon"></div></div><figcaption><span>MAP WORKFLOW</span><b>AREA MAPPING</b></figcaption></figure>
+          <div class="project-preview red-preview" aria-label="SIPAKARHUTLA app screenshots">
+            <figure class="device-card device-raw"><div class="device-shell"><div class="device-screen"><img src="assets/projects/sipakarhutla-polygon.jpg" alt="Mapped land area outlined with a polygon"></div></div><figcaption><span>MAP WORKFLOW</span><b>AREA MAPPING</b></figcaption></figure>
+            <figure class="device-card device-raw"><div class="device-shell"><div class="device-screen"><img src="assets/projects/sipakarhutla-severity.jpg" alt="Photo-based severity classification screen"></div></div><figcaption><span>IMAGE CLASSIFICATION</span><b>SEVERITY ASSESSMENT</b></figcaption></figure>
           </div>
         </article>
 
-        <article class="project-block reverse">
+        <article class="project-block reverse silala-project-block">
           <div class="project-copy">
             <p class="project-index"><span></span> 02 · INTERNSHIP · BPMSPH</p>
             <h3>SILALA</h3>
             <p class="project-subtitle">Digital library and archive</p>
-            <p>Staff needed an easier way to find library books and technical references. I designed and built the main Flutter screens and reader flows for a mobile prototype.</p>
-            <ul class="project-points">
-              <li>Catalogue, search, categories, and book details</li>
-              <li>Reading and borrowing history, favorites, and PDF viewing</li>
-              <li>Core mobile flows were developed and reviewed using sample data</li>
-            </ul>
-            <div class="tags"><span>Flutter</span><span>Dart</span><span>Mobile UI</span><span>Prototype</span></div>
+            <p>Developed Flutter screens and mobile flows for a digital-library prototype, including book discovery, details, favorites, borrowing and reading history, and PDF viewing.</p>
+            <div class="project-meta" aria-label="SILALA project details">
+              <div><span>ROLE</span><strong>Mobile App Intern</strong></div><div><span>STACK</span><strong>Flutter · Dart</strong></div><div><span>PERIOD</span><strong>Sep—Dec 2025</strong></div><div><span>DELIVERABLE</span><strong>Mobile prototype</strong></div>
+            </div>
             <a class="project-more" href="projects/silala.html">Project details <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="project-preview green-preview single-preview">
-            <figure class="device-card"><div class="device-shell"><div class="device-screen"><img src="assets/projects/silala-home-screen.png" alt="Anonymized SILALA app home screen showing book browsing"></div></div><figcaption><span>DISCOVERY</span><b>HOME &amp; COLLECTIONS</b></figcaption></figure>
+          <div class="project-preview green-preview silala-preview" aria-label="SILALA app screenshots">
+            <figure class="device-card"><div class="device-shell"><div class="device-screen"><img src="assets/projects/silala-home-screen.png" alt="SILALA home screen with reading activity and recommendations"></div></div><figcaption><span>DISCOVERY</span><b>HOME</b></figcaption></figure>
+            <figure class="device-card"><div class="device-shell"><div class="device-screen"><img src="assets/projects/silala-catalog-screen.png" alt="SILALA book catalogue with search and category filters"></div></div><figcaption><span>COLLECTION</span><b>BOOK CATALOGUE</b></figcaption></figure>
+            <figure class="device-card"><div class="device-shell"><div class="device-screen"><img src="assets/projects/silala-history-screen.png" alt="SILALA borrowing and reading history"></div></div><figcaption><span>READING</span><b>HISTORY</b></figcaption></figure>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="experience" class="experience-section">
-      <div class="wrap experience-layout">
-        <div>
-          <p class="eyebrow">BACKGROUND</p>
-          <h2>What I’ve been <em>working on.</em></h2>
-          <p class="experience-intro">My recent experience is in mobile app development, supported by project work at IPB University.</p>
-          <div class="education-line"><p class="eyebrow">EDUCATION</p><h3>B.Sc. in Computer Science</h3><p>IPB University · Graduated August 2026 · GPA 3.25 / 4.00</p></div>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item"><div class="timeline-date">JAN—AUG 2026</div><div><h3>Android Developer · Thesis &amp; Faculty Project</h3><p>SIPAKARHUTLA / SIPARTAN · IPB University</p><p class="timeline-detail">Continued an existing Kotlin application for field assessment, offline data entry, mapping, and photo-based severity classification. Participated in field testing with Manggala Agni.</p></div></article>
-          <article class="timeline-item"><div class="timeline-date">SEP—DEC 2025</div><div><h3>Mobile Application Developer Intern</h3><p>BPMSPH · Bogor</p><p class="timeline-detail">Designed and developed the main Flutter screens and reader flows for the SILALA digital-library prototype.</p></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="campus-section wrap">
-      <div class="campus-grid">
-        <div><p class="eyebrow">CAMPUS INVOLVEMENT</p><h2>Outside project work.</h2></div>
-        <div class="campus-copy">
-          <p><strong>HIMA Computer Science · Entrepreneurship Division member</strong><br>Helped write activity captions and publicize division activities.</p>
-          <p><strong>Student committees · Fundraising support</strong><br>Assisted with fundraising for two student events.</p>
-          <div class="skills-row"><span>MOBILE · Kotlin, Android SDK, Flutter, Dart</span><br><span>APIs &amp; DATA · REST APIs, Retrofit, Room, DataStore, SharedPreferences, PostgreSQL/PostGIS</span><br><span>TOOLS · Git, Postman, Google Maps SDK, TensorFlow Lite</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="wrap">
+    <section id="certificates" class="certificates-section wrap" aria-labelledby="certificates-title">
       <div class="certificate-callout">
-        <div><p class="eyebrow">CERTIFICATES &amp; SUPPORTING MATERIAL</p><h2>See the course certificates and project evidence.</h2><p>Downloads are grouped on a separate page. Certificate scans are attached where suitable; the English test copy has personal ID details removed.</p></div>
+        <div><p class="eyebrow">CERTIFICATES &amp; SUPPORTING MATERIAL</p><h2 id="certificates-title">Project participation and completed learning.</h2><p>Certificates are listed with context on a separate page.</p></div>
         <a class="button button-olive" href="credentials.html">Open certificates <span aria-hidden="true">↗</span></a>
       </div>
+    </section>
+
+    <section id="cv" class="cv-callout wrap" aria-labelledby="cv-title">
+      <div><p class="eyebrow">RESUME</p><h2 id="cv-title">Want the concise version?</h2><p>Open the CV preview, then download the PDF or editable Word file.</p></div>
+      <a class="button button-lime" href="cv.html">View CV <span aria-hidden="true">↗</span></a>
     </section>
 
     <section id="contact" class="contact-section wrap">
@@ -120,7 +126,7 @@
       <h2>Let’s talk about <span>mobile development.</span></h2>
       <p>Open to entry-level Android Developer, Mobile Developer, and Software Engineer roles.</p>
       <div class="contact-links" aria-label="Contact links">
-        <a class="button button-red" href="mailto:sazkiaanandazykry@gmail.com">sazkiaanandazykry@gmail.com <span aria-hidden="true">↗</span></a>
+        <a class="button button-red" href="mailto:sazkiaanandazykry@gmail.com">Email me <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/sazkiaananda" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
         <a href="https://www.linkedin.com/in/sazkiaandazykry" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
       </div>
